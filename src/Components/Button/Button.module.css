@@ -1,0 +1,12 @@
+.btn{
+    background-color: var(--black);
+    color: var(--primary);
+    height: 47px;
+    width: 170px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    word-spacing: 3px;
+    font-size: 1.02rem;
+}

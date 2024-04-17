@@ -1,0 +1,33 @@
+
+.search_route{
+    position:absolute;
+    display:flex;
+    max-height:500px;
+    width:650px;
+    flex-direction:column;
+    border:1px solid green ;
+    z-index: 10;
+    overflow: visible;
+    box-sizing: content-box;
+    margin-top: 12px; 
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrapper{display:flex;
+    gap:5px;
+    align-items:center;
+    background-color:var(--black)
+}
+.textcontainer{
+    width: 400px;
+    word-wrap: break-word;
+    padding: 0 20px;
+    line-height: 20px;
+}
+.title{
+    padding-right: 5px;
+}
+.textcontainer p{
+    font-size: 12px;
+}
